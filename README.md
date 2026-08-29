@@ -1,6 +1,8 @@
 # NLLB Experiment
 
-This experiment is part of a MA project, which explores various PEFT methods for fine-tuning MT models for English to Czech translation. This repo is limited to my individual contribution, which focused on LoRa fine-tuning. This experiment uses `facebook/nllb-200-distilled-600M`, a multilingual translation model from Hugging Face. The model is evaluated on the same preprocessed WMT18 Czech-English dataset used by the baseline and other experiments performed by my team mates. NLLB uses its own tokenizer and language codes as part of the pretrained model pipeline. Since the dataset split and evaluation metrics are shared across experiments, differences in performance mainly reflect the model pipelines rather than preprocessing differences.
+This experiment is part of a MA project, which explores various PEFT methods for fine-tuning MT models for English to Czech translation. This repo is limited to my individual contribution, which focused on LoRa fine-tuning. See presentation for more details on the overall experiment.
+
+This experiment uses `facebook/nllb-200-distilled-600M`, a multilingual translation model from Hugging Face. The model is evaluated on the same preprocessed WMT18 Czech-English dataset used by the baseline and other experiments performed by my team mates. NLLB uses its own tokenizer and language codes as part of the pretrained model pipeline. Since the dataset split and evaluation metrics are shared across experiments, differences in performance mainly reflect the model pipelines rather than preprocessing differences.
 
 
 ## Dataset
