@@ -1,8 +1,19 @@
+<div align="center">
+
 # Parameter-Efficient Fine-Tuning for Czech-to-English Machine Translation
+
+**Parameter comparison between full fine-tuning and parameter-efficient fine-tuning methods.**
+
+Evaluating whether parameter-efficient fine-tuning can serve as a practical alternative to full
+fine-tuning for Czech-to-English machine translation, using Facebook NLLB adapted with LoRA, IA3, and prefix tuning.
+
+***Language Technology MSc · Machine Translation · Uppsala University***  
+
+</div>
 
 ## NLLB Experiment
 
-This experiment is part of a MA project, which explores various PEFT methods for fine-tuning MT models for English to Czech translation. This repo is limited to my individual contribution, which focused on LoRa fine-tuning. See presentation for more details on the overall experiment.
+This experiment is part of a MsC project, which explores various PEFT methods for fine-tuning MT models for English to Czech translation. This repo is limited to my individual contribution, which focused on LoRa fine-tuning. See presentation for more details on the overall experiment.
 
 This experiment uses `facebook/nllb-200-distilled-600M`, a multilingual translation model from Hugging Face. The model is evaluated on the same preprocessed WMT18 Czech-English dataset used by the baseline and other experiments performed by my team mates. NLLB uses its own tokenizer and language codes as part of the pretrained model pipeline. Since the dataset split and evaluation metrics are shared across experiments, differences in performance mainly reflect the model pipelines rather than preprocessing differences.
 
