@@ -1,4 +1,6 @@
-# NLLB Experiment
+# Parameter-Efficient Fine-Tuning for Czech-to-English Machine Translation
+
+## NLLB Experiment
 
 This experiment is part of a MA project, which explores various PEFT methods for fine-tuning MT models for English to Czech translation. This repo is limited to my individual contribution, which focused on LoRa fine-tuning. See presentation for more details on the overall experiment.
 
